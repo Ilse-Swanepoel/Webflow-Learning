@@ -1,0 +1,31 @@
+.section{
+  background-color: aqua;
+  display: block;
+  flex-direction: row;
+}
+
+.container{
+  background-color: blue;
+    display: flex;
+    padding-right: 31px;
+    padding-left: 31px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projects{
+  display: grid;
+  justify-content: stretch;
+  justify-items: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.image{
+  width: 100%;
+}
